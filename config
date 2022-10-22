@@ -1,2 +1,13 @@
 git config user.name "Name"
-$ git config --global user.email "Email"
+git config --global user.email "Email"
+
+
+//Startup Oracle Database and Lisenter
+Connect oracle user : su - oracle
+
+Sqlplus " / as sysdba"
+
+startup
+
+lsnrctl start
+
