@@ -1,8 +1,8 @@
 
-👋 Hi, I’m Anik Islam (@Anik2069). Software Engineer in Squad Innovators Limited
-👀 I’m interested in Backend Development
-🌱 I’m currently learning Flutter and Spring
-💞️ I’m looking to collaborate on Web and mobile apps devs
+👋 Hi, I’m Anik Islam (@Anik2069). Software Engineer in Squad Innovators Limited </br> 
+👀 I’m interested in Backend Development </br>
+🌱 I’m currently learning Flutter and Spring </br>
+💞️ I’m looking to collaborate on Web and mobile apps devs </br>
 📫 How to reach me ... By Using Mail (anikislam668@gmail.com) Thank you :)
 
 
