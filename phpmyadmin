@@ -1,0 +1,37 @@
+wget https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.2.0-all-languages.zip
+
+unzip phpMyAdmin-5.2.0-all-languages.zip
+
+
+server {
+    listen 82;
+    server_name 103.174.50.61;  # Replace with your domain if applicable
+
+    root /var/www/html/phpmyadmin;
+    index index.php index.html index.htm;
+    client_max_body_size 20M;
+    location / {
+        try_files $uri $uri/ /index.php?$args;
+    }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/run/php/php8.1-fpm.sock;  # Adjust for your PHP version
+    }
+
+    location ~ /\.ht {
+        deny all;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
